@@ -13,9 +13,12 @@ android {
         applicationId = "top.sakiko.pocket_notifier"
 
         // 版本数字，可修改
-        versionCode = 1
+        versionCode = 100
         // 版本号，可修改
-        versionName = "0.0.1"
+        versionName = "0.1.0"
+        // 版本格式：主版本号.次版本号.修订号 https://semver.org/lang/zh-CN/
+        // 三段式编码（把 versionName 编码进 versionCode）
+        // 主版本号*10000 + 次版本号*100 + 修订号
 
         minSdk = 24
         targetSdk = 34
